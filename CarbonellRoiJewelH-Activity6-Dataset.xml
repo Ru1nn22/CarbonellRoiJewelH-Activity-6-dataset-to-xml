@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE BehavioralRiskFactorSurveillanceData [
+
+	<!ELEMENT BehavioralRiskFactorSurveillanceData (Location)>
+	<!ELEMENT Location (Kentucky, Connecticut)>
+	<!ELEMENT Kentucky (Employment, Income, MarriageStatus, Education, Race)>
+	<!ELEMENT Connecticut (Employment, Income, MarriageStatus, Education, Race)>
+
+	<!ELEMENT EmploymentStatus (#PCDATA)>
+	<!ELEMENT IncomeStatus (#PCDATA)>
+	<!ELEMENT MaritalStatus (#PCDATA)>
+	<!ELEMENT EducationStatus (#PCDATA)>
+	<!ELEMENT Etnicity (#PCDATA)>
+
+	<!ATTLIST EmploymentStatus employmentstatus CDATA #REQUIRED>
+	<!ATTLIST IncomeStatus incomestatus CDATA #REQUIRED>
+	<!ATTLIST MaritalStatus maritalstatus CDATA #REQUIRED>
+	<!ATTLIST EducationStatus educationstatus CDATA #REQUIRED>
+	<!ATTLIST Race etnicity CDATA #REQUIRED>
+	
+]>
+
 <BehavioralRiskFactorSurveillanceData>
 	<Location>
 		<Kentucky>
