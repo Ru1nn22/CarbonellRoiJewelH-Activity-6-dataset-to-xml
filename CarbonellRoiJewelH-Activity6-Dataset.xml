@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BehavioralRiskFactorSurveillanceData>
+	<Location>
+		<Kentucky>
+			<Employment>
+				<EmploymentStatus employmentstatus = "No Work">70</EmploymentStatus>
+				<EmploymentStatus employmentstatus = "Retired">1984</EmploymentStatus>
+			</Employment>
+			<Income>
+				<IncomeStatus incomestatus ="$50,000+">680</IncomeStatus>
+				<IncomeStatus incomestatus ="$50,000-">86</IncomeStatus>
+				<IncomeStatus incomestatus ="$15,000-">106</IncomeStatus>
+			</Income>
+			<MarriageStatus>
+				<MaritalStatus maritalstatus = "Married">1025</MaritalStatus>
+				<MaritalStatus maritalstatus = "Divorced">136</MaritalStatus>
+			</MarriageStatus>
+			<Education>
+				<EducationStatus educationstatus = "Less Than H.S">15</EducationStatus>
+				<EducationStatus educationstatus = "H.S">57</EducationStatus>
+				<EducationStatus educationstatus = "College">301</EducationStatus>
+			</Education>
+			<Race>
+				<Etnicity etnicity = "Asian">10</Etnicity>
+				<Etnicity etnicity = "Hispanic">25</Etnicity>
+				<Etnicity etnicity = "White">55</Etnicity>
+				<Etnicity etnicity = "Black">62</Etnicity>
+			</Race>
+		</Kentucky>
+
+		<Connecticut>
+			<Employment>
+				<EmploymentStatus employmentstatus = "No Work">133</EmploymentStatus>
+				<EmploymentStatus employmentstatus = "Retired">263</EmploymentStatus>
+			</Employment>
+			<Income>
+				<IncomeStatus incomestatus ="$50,000+">1157</IncomeStatus>
+				<IncomeStatus incomestatus ="$50,000-">279</IncomeStatus>
+				<IncomeStatus incomestatus ="$15,000-">126</IncomeStatus>
+			</Income>
+			<MarriageStatus>
+				<MaritalStatus maritalstatus = "Married">2608</MaritalStatus>
+				<MaritalStatus maritalstatus = "Divorced">430</MaritalStatus>
+			</MarriageStatus>
+			<Education>
+				<EducationStatus educationstatus = "Less Than H.S">140</EducationStatus>
+				<EducationStatus educationstatus = "H.S">424</EducationStatus>
+				<EducationStatus educationstatus = "College">430</EducationStatus>
+			</Education>
+			<Race>
+				<Etnicity etnicity = "Asian">38</Etnicity>
+				<Etnicity etnicity = "Hispanic">362</Etnicity>
+				<Etnicity etnicity = "White">1551</Etnicity>
+				<Etnicity etnicity = "Black">71</Etnicity>
+			</Race>
+		</Connecticut>
+	</Location>
+</BehavioralRiskFactorSurveillanceData>
